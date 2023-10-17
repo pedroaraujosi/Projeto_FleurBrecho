@@ -1,0 +1,146 @@
+
+.com{
+    background-color: #F8F9FA;
+}
+
+.headerContatos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContatos img{
+    max-width: 180px;
+    width: 100%;
+    height: 150px;
+    margin-left: 5%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.headerContatos li img{
+    width: 100%;
+    max-width: 60px;
+    height: 40px;
+    list-style: none;
+    object-fit: contain;
+    margin-left: -5%;
+    cursor: pointer;
+}
+
+.headerContatos li{
+    list-style: none;
+    margin-right: 5%;
+    margin-top: 1.9%;
+}
+
+.contats{
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex; 
+}
+
+.cont{
+    margin-top: 9%;
+}
+
+.contats h1{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+}
+
+.contats p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.formulario{
+    background-color: #8d9195;
+    width: 600px;
+    height: 550px;
+    border: 20px solid #8d9195;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-left: 6%;
+}
+
+.formulario h1{
+    text-align: center;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .formulario{
+        height: 580px;
+        margin-left: 0;
+        width: 90%;
+        
+    }
+    .contats{
+        display: block;
+    }
+}
+
+.loc{
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+.loc a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.loc h1{
+    font-family: 'PT Serif', serif;
+}
+
+.loc img{
+    margin-right: 1%;
+}
+
+.loc a:hover{
+    color: rgb(52, 48, 48);
+}
+
+
+.footer{
+    background-color: #a3aab2;
+    width: 100%;
+    height: 300px;
+    margin-top: 3%;
+}
+
+.footer h1{
+    display: inline-block;
+    padding: 60px 90px;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.divisoria{
+    border-top: 1px solid black; 
+    margin-top: 10px; 
+}
+
+.footer h5{
+    color: rgb(106, 104, 102);
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer h1{
+        font-size: 12px;
+        margin-left: -13%;
+    }
+ }
